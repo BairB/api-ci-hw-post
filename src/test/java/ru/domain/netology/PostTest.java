@@ -22,7 +22,7 @@ class PostTest {
                 .post("/post")
 // Проверки
                 .then()
-                .statusCode(202)
+                .statusCode(200)
 
                 .body("data", equalTo("Birthday - 25.05"))
 
